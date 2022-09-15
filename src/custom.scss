@@ -1,0 +1,14 @@
+$body-bg: #000;
+$body-color: #F0F7EE;
+$font-family-base: 'Nunito', sans-serif;
+$spacer: 1rem !default;
+$spacers: (
+    6: ($spacer * 10),
+    8: ($spacer * 12)
+);
+$font-size-base: 1rem !default;
+$h1-font-size: $font-size-base * 4;
+
+@import 'node_modules/bootstrap/scss/bootstrap.scss';
+@import 'node_modules/bootstrap-vue/src/index.scss';
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
