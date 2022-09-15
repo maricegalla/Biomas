@@ -11,7 +11,13 @@
       </div>
     </div>
     <div>
-      <img class="rounded mx-auto d-block mt-5" :src="biomeData.image" :alt="biomeData.name" />
+      <img class="rounded mx-auto d-block mt-4 mb-2" :src="biomeData.image" :alt="biomeData.name" />
+        <router-link to="/">
+          <button type="button" class="rounded-pill mx-auto d-block btn btn-primary" >
+            <b-icon-arrow-return-left />
+            Voltar
+          </button>
+        </router-link>
     </div>
   </div>
 </template>
