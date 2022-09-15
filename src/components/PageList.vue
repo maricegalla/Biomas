@@ -4,12 +4,9 @@
       <div class="col-auto">
         <h2 class="font-weight-bold text-primary">Biomas existentes</h2>
         <ul class=" text-primary">
-          <li>Amazônia</li>
-          <li>Caatinga</li>
-          <li>Cerrado</li>
-          <li>Mata Atlântica</li>
-          <li>Pampa</li>
-          <li>Pantanal</li>
+          <li v-for="(biome, index) in biomes" :key="index">
+            <a :href="biome.path">{{ biome.name }}</a>
+          </li>
         </ul>
       </div>
       <div class="col-auto">
@@ -20,7 +17,14 @@
 </template>
 
 <script>
+import { biomes } from '../constants/biomesConstants';
+
 export default {
   name: 'PageList',
+  data() {
+    return {
+      biomes: biomes,
+    }
+  }
 }
 </script>
