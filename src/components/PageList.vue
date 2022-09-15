@@ -5,7 +5,9 @@
         <h2 class="font-weight-bold text-primary">Biomas existentes</h2>
         <ul class=" text-primary">
           <li v-for="(biome, index) in biomes" :key="index">
-            <a :href="biome.path">{{ biome.name }}</a>
+            <h5>
+              <a :href="biome.path">{{ biome.name }}</a>
+            </h5>
           </li>
         </ul>
       </div>
