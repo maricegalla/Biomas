@@ -4,7 +4,7 @@
         <div class="container">
           <div class="row justify-content-center align-items-center">
             <div class="col">
-              <h1 class="font-weight-bold text-center mb-5 mt-3">Vídeos</h1>
+              <h1 class="font-weight-bold text-center mb-3 mt-3">Vídeos</h1>
           </div>
         </div>
       </div>
