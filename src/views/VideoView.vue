@@ -14,7 +14,7 @@
         <iframe width="560" height="315" :src="video" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
       </p>
     </div>
-    <div class="mb-5">
+    <div class="mb-4">
       <router-link to="/">
           <button type="button" class="rounded-pill mx-auto d-block btn btn-primary" >
             <b-icon-arrow-return-left />
