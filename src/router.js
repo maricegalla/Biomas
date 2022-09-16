@@ -7,6 +7,7 @@ import VideoView from './views/VideoView.vue';
 Vue.use(Router);
 
 export default new Router({
+  mode: 'history',
   routes: [
     { path: '/', component: HomeView },
     { path: '/videos', component: VideoView},
