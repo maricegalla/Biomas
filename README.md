@@ -1,4 +1,4 @@
-# biomas
+# Biomas Brasileiros
 
 ## Project setup
 ```
